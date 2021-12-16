@@ -2,4 +2,7 @@ url: ~
 template:
   bootstrap: 5
   bootswatch: flatly
+  params:
+    ganalytics: UA-76139189-2
+ 
 
