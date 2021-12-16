@@ -12,3 +12,7 @@ RoxygenNote: 7.1.2
 Imports:
     blogdown,
     usethis
+Suggests: 
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr
