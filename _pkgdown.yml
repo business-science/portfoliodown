@@ -1,7 +1,6 @@
-url: https://business-science.github.io/portfoliodown/
+
 template:
-  bootstrap: 5
-  bootswatch: flatly
   params:
+    bootswatch: flatly
     ganalytics: UA-76139189-2
 
