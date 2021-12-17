@@ -1,10 +1,14 @@
 Package: portfoliodown
-Title: What the Package Does (One Line, Title Case)
+Title: Data Science Portfolio Website Builder
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    c(
+    person("Matt", "Dancho", email = "mdancho@business-science.io", role = c("aut", "cre"))
+  )
+Description: 
+    Makes it painless for data scientists to create a polished 
+    personal website so they can host their project portfolios (and get great job interviews). 
+    The hugo theme is based on the Raditian Free Hugo Theme. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
