@@ -38,6 +38,8 @@ __Check out an example data science portfolio__ at [https://mattdancho.netlify.a
 knitr::include_graphics("vignettes/example_portfolio.gif")
 ```
 
+<hr>
+
 ## Getting Started
 
 - The portfolio website is automatically generated with `portfoliodown::new_portfolio_site()`, and can then be customized as a `blogdown` website.

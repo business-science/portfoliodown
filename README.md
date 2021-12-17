@@ -27,6 +27,8 @@ devtools::install_github("business-science/portfoliodown")
 
 <img src="vignettes/example_portfolio.gif" width="100%" />
 
+<hr>
+
 ## Getting Started
 
 -   The portfolio website is automatically generated with
