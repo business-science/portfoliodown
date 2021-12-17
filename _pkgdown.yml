@@ -1,6 +1,25 @@
 url: https://business-science.github.io/portfoliodown/
 template:
+  bootstrap: 5
+  bslib:
+    base_font: {google: "Roboto"}
+    heading_font: {google: "Montserrat"}
+    code_font: {google: "JetBrains Mono"}
   params:
     bootswatch: flatly
     ganalytics: UA-76139189-2
 
+navbar:
+  title: "portfoliodown"
+  left:
+    - icon: "fa-home"
+      href: index.html
+    - text: "Getting Started"
+      href: articles/getting-started-portfoliodown.html
+  structure:
+    right: [search, github]
+  components:
+    github:
+      icon: fa-github
+      href: https://github.com/business-science/portfoliodown
+      aria-label: GitHub

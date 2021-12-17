@@ -25,11 +25,16 @@ devtools::install_github("business-science/portfoliodown")
 -   **Check out an example data science portfolio** at
     <https://mattdancho.netlify.app/>.
 
+<img src="vignettes/example_portfolio.gif" width="100%" />
+
+## Getting Started
+
 -   The portfolio website is automatically generated with
     `portfoliodown::new_portfolio_site()`, and can then be customized as
     a `blogdown` website.
 
-<img src="vignettes/example_portfolio.gif" width="100%" />
+-   To learn more, visit [Getting Started with
+    Portfoliodown](https://business-science.github.io/portfoliodown/articles/getting-started-portfoliodown.html)
 
 ## Acknowledgements
 
