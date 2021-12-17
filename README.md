@@ -22,8 +22,8 @@ devtools::install_github("business-science/portfoliodown")
 
 ## Example Data Science Portfolio
 
--   **Check out an example data science portfolio** at
-    <https://mattdancho.netlify.app/>.
+**Check out an example data science portfolio** at
+<https://mattdancho.netlify.app/>.
 
 <img src="vignettes/example_portfolio.gif" width="100%" />
 
