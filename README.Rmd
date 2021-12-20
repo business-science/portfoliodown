@@ -8,17 +8,30 @@ output: github_document
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-  fig.path = "man/figures/README-",
+  fig.path = "man/figures",
   out.width = "100%"
 )
 ```
 
-# portfoliodown
+# portfoliodown <a href="https://business-science.github.io/portfoliodown/"><img src="man/figures/logo.png" align="right" height="139" /></a>
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of `portfoliodown` is to make it _painless for data scientists_ to create a polished personal website so they can host their project portfolios __(and get great job interviews)__.
+The goal of `portfoliodown` is to make it _painless for data scientists_ to create a polished professional website so they can host their project portfolios __(and get great job interviews)__.
+
+
+
+## Example: Data Science Portfolio
+
+__Check out an example data science portfolio__ at [https://mattdancho.netlify.app/](https://mattdancho.netlify.app/). It took 15-minutes to make this with `portfoliodown`. 
+
+
+```{r, echo=F}
+knitr::include_graphics("vignettes/example_portfolio.gif")
+```
+
+<hr>
 
 ## Installation
 
@@ -28,17 +41,6 @@ You can install the development version of `portfoliodown` from [GitHub](https:/
 # install.packages("devtools")
 devtools::install_github("business-science/portfoliodown")
 ```
-
-## Example Data Science Portfolio
-
-__Check out an example data science portfolio__ at [https://mattdancho.netlify.app/](https://mattdancho.netlify.app/). 
-
-
-```{r, echo=F}
-knitr::include_graphics("vignettes/example_portfolio.gif")
-```
-
-<hr>
 
 ## Getting Started
 

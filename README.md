@@ -1,14 +1,24 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# portfoliodown
+# portfoliodown <a href="https://business-science.github.io/portfoliodown/"><img src="man/figures/logo.png" align="right" height="139" /></a>
 
 <!-- badges: start -->
 <!-- badges: end -->
 
 The goal of `portfoliodown` is to make it *painless for data scientists*
-to create a polished personal website so they can host their project
+to create a polished professional website so they can host their project
 portfolios **(and get great job interviews)**.
+
+## Example: Data Science Portfolio
+
+**Check out an example data science portfolio** at
+<https://mattdancho.netlify.app/>. It took 15-minutes to make this with
+`portfoliodown`.
+
+<img src="vignettes/example_portfolio.gif" width="100%" />
+
+<hr>
 
 ## Installation
 
@@ -19,15 +29,6 @@ You can install the development version of `portfoliodown` from
 # install.packages("devtools")
 devtools::install_github("business-science/portfoliodown")
 ```
-
-## Example Data Science Portfolio
-
-**Check out an example data science portfolio** at
-<https://mattdancho.netlify.app/>.
-
-<img src="vignettes/example_portfolio.gif" width="100%" />
-
-<hr>
 
 ## Getting Started
 

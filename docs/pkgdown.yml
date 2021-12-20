@@ -1,9 +1,9 @@
-pandoc: '2.13'
+pandoc: 2.11.4
 pkgdown: 2.0.1
 pkgdown_sha: ~
 articles:
   getting-started-portfoliodown: getting-started-portfoliodown.html
-last_built: 2021-12-17T01:36Z
+last_built: 2021-12-18T12:44Z
 urls:
   reference: https://business-science.github.io/portfoliodown/reference
   article: https://business-science.github.io/portfoliodown/articles
