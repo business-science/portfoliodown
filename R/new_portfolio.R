@@ -3,11 +3,29 @@
 #' 
 #' @description 
 #' - Generates the default hugo template skeleton for a Portfolio-Based Data Scientist Website
-#' - Uses a modified version of the `raditian-free-hugo-theme` specifically designed for data science portfolios available at: 
-#'   `business-science/raditian-free-hugo-theme-data-science`.  
+#' - Provides 3 portfolio templates: `raditian`, `kross`, and `portio`.  
 #' 
 #' 
 #' @inheritParams blogdown::new_site
+#' @param theme The theme can be defined in several ways. 
+#' 
+#' __Preset themes__
+#' 
+#' - `raditian` (default): Custom version of the free hugo raditian theme
+#' - `kross`: Custom version of the free hugo kross theme
+#' - `portio`: Custom version of the free hugo portio theme
+#' 
+#' __A Hugo theme on Github__ 
+#' 
+#' - A character string of the form user/repo
+#' - A GIT branch or tag name after @, i.e. theme can be of the form user/repo@branch). 
+#' - A full URL to the zip file or tarball of the theme. 
+#' 
+#' __No Theme__
+#' 
+#' If `theme = NA`, no themes will be installed, and you have to manually install a theme.
+#'   
+#'       
 #' @param ... Additional arguments can be passed to [blogdown::new_site()].
 #' 
 #' 
@@ -18,11 +36,25 @@ new_portfolio_site <- function(
   install_hugo = TRUE, 
   sample = FALSE,
   format = "yaml", 
-  theme = "business-science/raditian-free-hugo-theme-data-science", 
+  theme = c("raditian", "kross", "portio"), 
   theme_example = TRUE, 
   netlify = TRUE,
   ...
 ) {
+  
+  theme <- theme[[1]]
+  
+  if (theme == "raditian") {
+    theme <- "business-science/raditian-free-hugo-theme-data-science"
+  }
+  
+  if (theme == "portio") {
+    theme <- "business-science/portio-hugo-data-science"
+  }
+  
+  if (theme == "kross") {
+    theme <- "business-science/kross-hugo-data-science"
+  }
   
   blogdown::new_site(
     dir = dir,

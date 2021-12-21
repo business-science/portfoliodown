@@ -10,7 +10,7 @@ new_portfolio_site(
   install_hugo = TRUE,
   sample = FALSE,
   format = "yaml",
-  theme = "business-science/raditian-free-hugo-theme-data-science",
+  theme = c("raditian", "kross", "portio"),
   theme_example = TRUE,
   netlify = TRUE,
   ...
@@ -35,12 +35,25 @@ default, but this function adds sample content by default.}
 Markdown file created by \code{new_content()} always uses YAML instead of
 TOML or JSON.}
 
-\item{theme}{A Hugo theme on Github (a character string of the form
-\code{user/repo}, and you can optionally specify a GIT branch or tag name
-after \code{@}, i.e. \code{theme} can be of the form
-\code{user/repo@branch}). You can also specify a full URL to the zip file
-or tarball of the theme. If \code{theme = NA}, no themes will be installed,
-and you have to manually install a theme.}
+\item{theme}{The theme can be defined in several ways.
+
+\strong{Preset themes}
+\itemize{
+\item \code{raditian} (default): Custom version of the free hugo raditian theme
+\item \code{kross}: Custom version of the free hugo kross theme
+\item \code{portio}: Custom version of the free hugo portio theme
+}
+
+\strong{A Hugo theme on Github}
+\itemize{
+\item A character string of the form user/repo
+\item A GIT branch or tag name after @, i.e. theme can be of the form user/repo@branch).
+\item A full URL to the zip file or tarball of the theme.
+}
+
+\strong{No Theme}
+
+If \code{theme = NA}, no themes will be installed, and you have to manually install a theme.}
 
 \item{theme_example}{Whether to copy the example in the \file{exampleSite}
 directory if it exists in the theme. Not all themes provide example sites.}
@@ -52,7 +65,6 @@ directory if it exists in the theme. Not all themes provide example sites.}
 \description{
 \itemize{
 \item Generates the default hugo template skeleton for a Portfolio-Based Data Scientist Website
-\item Uses a modified version of the \code{raditian-free-hugo-theme} specifically designed for data science portfolios available at:
-\code{business-science/raditian-free-hugo-theme-data-science}.
+\item Provides 3 portfolio templates: \code{raditian}, \code{kross}, and \code{portio}.
 }
 }
