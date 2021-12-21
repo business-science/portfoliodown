@@ -42,6 +42,11 @@ devtools::install_github("business-science/portfoliodown")
 ## Acknowledgements
 
 The `portfoliodown` package would not be possible without the awesome
-work of the
-[raditian-free-hugo-theme](https://github.com/radity/raditian-free-hugo-theme).
-This is one of the best hugo portfolio templates around.
+work of:
+
+-   The [Blogdown Team](https://github.com/rstudio/blogdown) and its
+    team at RStudio
+
+-   The
+    [raditian-free-hugo-theme](https://github.com/radity/raditian-free-hugo-theme).
+    This is one of the best hugo portfolio templates around.
