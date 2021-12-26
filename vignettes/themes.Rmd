@@ -35,7 +35,11 @@ __Demo:__ [Raditian Theme](https://mattdancho.netlify.app/)
 
 __Features__:
 
-The `theme = "raditian"` (default) theme is an excellent choice if you are seeking a streamlined portfolio. The portfolio is designed to communicate your value in as few words as possible. However, the portfolio lacks color template customization that some of the other portfolio themes include. Overall, this is my top choice to get interviews fast. 
+The `theme = "raditian"` (default) theme is an excellent choice if you are seeking a streamlined portfolio. 
+
+- Raditian is designed to communicate your value in as few words as possible. 
+
+- Simple portfolios can be added as Shinyapps.io apps and GitHub Repo's that you are proud of. 
 
 ![Example Portfolio - Raditian Theme](https://raw.githubusercontent.com/business-science/raditian-free-hugo-theme-data-science/master/images/example_portfolio.gif)
 
