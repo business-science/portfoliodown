@@ -5,6 +5,7 @@
 \alias{reexports}
 \alias{build_site}
 \alias{serve_site}
+\alias{stop_server}
 \alias{use_github}
 \title{Objects exported from other packages}
 \keyword{internal}
@@ -13,7 +14,7 @@ These objects are imported from other packages. Follow the links
 below to see their documentation.
 
 \describe{
-  \item{blogdown}{\code{\link[blogdown]{build_site}}, \code{\link[blogdown]{serve_site}}}
+  \item{blogdown}{\code{\link[blogdown]{build_site}}, \code{\link[blogdown]{serve_site}}, \code{\link[blogdown:serve_site]{stop_server}}}
 
   \item{usethis}{\code{\link[usethis]{use_github}}}
 }}

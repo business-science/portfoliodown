@@ -16,9 +16,16 @@ portfolios **(and get great job interviews)**.
 <https://mattdancho.netlify.app/>. It took 15-minutes to make this with
 `portfoliodown`.
 
-<img src="vignettes/example_portfolio.gif" width="100%" />
+![Example Portfolio - Raditian
+Theme](https://raw.githubusercontent.com/business-science/raditian-free-hugo-theme-data-science/master/images/example_portfolio.gif)
 
 <hr>
+
+## Portfoliodown Theme Demos:
+
+-   [Raditian Theme](https://mattdancho.netlify.app/) (Default)
+
+-   [Kross Theme](https://mattdancho-kross.netlify.app/)
 
 ## Installation
 
@@ -50,3 +57,6 @@ work of:
 -   The
     [raditian-free-hugo-theme](https://github.com/radity/raditian-free-hugo-theme).
     This is one of the best hugo portfolio templates around.
+
+-   The [kross-hugo-theme](https://github.com/themefisher/kross-hugo).
+    Another great portfolio template.

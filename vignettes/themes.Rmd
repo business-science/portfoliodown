@@ -1,0 +1,56 @@
+---
+title: "Portfoliodown Themes"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Portfoliodown Themes}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+    echo = FALSE,
+    message = FALSE,
+    warning = FALSE,
+    fig.width = 8, 
+    fig.height = 4.5,
+    fig.align = 'center',
+    out.width='95%', 
+    dpi = 100
+)
+```
+
+
+`portfoliodown` is designed to work right out of the box with several themes:
+
+- [Raditian Theme](https://mattdancho.netlify.app/) (Default)
+
+- [Kross Theme](https://mattdancho-kross.netlify.app/)
+
+Simply select a theme by using the theme short name: `new_portfolio_site(theme = 'raditian')`.
+
+## Raditian Theme
+
+__Demo:__ [Raditian Theme](https://mattdancho.netlify.app/)
+
+__Features__:
+
+The `theme = "raditian"` (default) theme is an excellent choice if you are seeking a streamlined portfolio. The portfolio is designed to communicate your value in as few words as possible. However, the portfolio lacks color template customization that some of the other portfolio themes include. Overall, this is my top choice to get interviews fast. 
+
+![Example Portfolio - Raditian Theme](https://raw.githubusercontent.com/business-science/raditian-free-hugo-theme-data-science/master/images/example_portfolio.gif)
+
+
+## Kross Theme
+
+__Demo:__ [Kross Theme](https://mattdancho-kross.netlify.app/)
+
+__About__:
+
+The `theme = "kross"` theme is an excellent choice if you are seeking a customizable portfolio. 
+
+- The portfolio has a searchable Portfolio Section with Markdown templates that allow for expanding on your projects. 
+
+- The portfolio has color template customization. Simply change the `theme` color in the `homepage.yml`.
+
+
+![Example Portfolio - Kross Theme](https://github.com/business-science/kross-hugo-data-science/blob/master/images/example_portfolio_kross.gif?raw=true)
