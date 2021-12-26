@@ -7,6 +7,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="portfoliodown">
 <title>Getting Started with Portfoliodown • portfoliodown</title>
+<!-- favicons --><link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="apple-touch-icon" type="image/png" sizes="120x120" href="../apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" type="image/png" sizes="76x76" href="../apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" type="image/png" sizes="60x60" href="../apple-touch-icon-60x60.png">
 <script src="../deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="../deps/bootstrap-5.1.0/bootstrap.min.css" rel="stylesheet">
 <script src="../deps/bootstrap-5.1.0/bootstrap.bundle.min.js"></script><link href="../deps/_Roboto-0.4.0/font.css" rel="stylesheet">
@@ -17,6 +23,7 @@
 <!-- bootstrap-toc --><script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="../pkgdown.js"></script><link href="../extra.css" rel="stylesheet">
 <meta property="og:title" content="Getting Started with Portfoliodown">
 <meta property="og:description" content="portfoliodown">
+<meta property="og:image" content="https://business-science.github.io/portfoliodown/logo.png">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -55,6 +62,9 @@
   <a class="nav-link" href="../articles/getting-started-portfoliodown.html">Getting Started</a>
 </li>
 <li class="nav-item">
+  <a class="nav-link" href="../articles/themes.html">Themes</a>
+</li>
+<li class="nav-item">
   <a class="nav-link" href="../reference/index.html">API Reference</a>
 </li>
       </ul>
@@ -78,7 +88,7 @@
 
 <div class="row">
   <main id="main"><div class="page-header">
-      <img src="" class="logo" alt=""><h1>Getting Started with Portfoliodown</h1>
+      <img src="../logo.png" class="logo" alt=""><h1>Getting Started with Portfoliodown</h1>
             
       
       
@@ -92,7 +102,9 @@
 <h2 id="example-data-science-portfolio">Example Data Science Portfolio<a class="anchor" aria-label="anchor" href="#example-data-science-portfolio"></a>
 </h2>
 <p>You can quickly view an example data science portfolio that I’ve set up here: <a href="https://mattdancho.netlify.app/" class="external-link">https://mattdancho.netlify.app/</a>. This is the default portfolio that comes with <code>portfoliodown</code>.</p>
-<p><img src="example_portfolio.gif" width="95%" style="display: block; margin: auto;"></p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/business-science/raditian-free-hugo-theme-data-science/master/images/example_portfolio.gif" alt=""><p class="caption">Example Portfolio - Raditian Theme</p>
+</div>
 </div>
 <div class="section level2">
 <h2 id="getting-started">Getting Started<a class="anchor" aria-label="anchor" href="#getting-started"></a>
@@ -102,7 +114,7 @@
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://business-science.github.io/portfoliodown/">portfoliodown</a></span><span class="op">)</span></code></pre></div>
 <p>Next, run the <code><a href="../reference/new_portfolio_site.html">new_portfolio_site()</a></code> function, which will install a directory of files that are used to create the <strong>Data Science Portfolio Template.</strong></p>
 <p><img src="portfolio_files.jpg" width="95%" style="display: block; margin: auto;"></p>
-<p>Next, serve the site using <code><a href="https://pkgs.rstudio.com/blogdown/reference/serve_site.html" class="external-link">serve_site()</a></code> to view what the website will look like once deployed. You can run <code>stop_server()</code> or restart the R session to stop serving. The website will be served at <code>localhost:4321</code> or a similar URL.</p>
+<p>Next, serve the site using <code><a href="https://pkgs.rstudio.com/blogdown/reference/serve_site.html" class="external-link">serve_site()</a></code> to view what the website will look like once deployed. You can run <code><a href="https://pkgs.rstudio.com/blogdown/reference/serve_site.html" class="external-link">stop_server()</a></code> or restart the R session to stop serving. The website will be served at <code>localhost:4321</code> or a similar URL.</p>
 </div>
 <div class="section level2">
 <h2 id="customizing-the-website">Customizing the Website<a class="anchor" aria-label="anchor" href="#customizing-the-website"></a>

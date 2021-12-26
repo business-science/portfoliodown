@@ -26,9 +26,7 @@ The goal of `portfoliodown` is to make it _painless for data scientists_ to crea
 
 You can quickly view an example data science portfolio that I've set up here:  [https://mattdancho.netlify.app/](https://mattdancho.netlify.app/). This is the default portfolio that comes with `portfoliodown`.
 
-```{r, echo=F}
-knitr::include_graphics("example_portfolio.gif")
-```
+![Example Portfolio - Raditian Theme](https://raw.githubusercontent.com/business-science/raditian-free-hugo-theme-data-science/master/images/example_portfolio.gif)
 
 
 

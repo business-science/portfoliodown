@@ -18,6 +18,8 @@ navbar:
     href: index.html
   - text: Getting Started
     href: articles/getting-started-portfoliodown.html
+  - text: Themes
+    href: articles/themes.html
   - text: API Reference
     href: reference/index.html
   structure:
