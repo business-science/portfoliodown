@@ -10,7 +10,7 @@ new_portfolio_site(
   install_hugo = TRUE,
   sample = FALSE,
   format = "yaml",
-  theme = c("raditian", "kross", "portio"),
+  theme = c("raditian", "kross"),
   theme_example = TRUE,
   netlify = TRUE,
   ...
@@ -41,7 +41,6 @@ TOML or JSON.}
 \itemize{
 \item \code{raditian} (default): Custom version of the free hugo raditian theme
 \item \code{kross}: Custom version of the free hugo kross theme
-\item \code{portio}: Custom version of the free hugo portio theme
 }
 
 \strong{A Hugo theme on Github}
@@ -65,6 +64,6 @@ directory if it exists in the theme. Not all themes provide example sites.}
 \description{
 \itemize{
 \item Generates the default hugo template skeleton for a Portfolio-Based Data Scientist Website
-\item Provides 3 portfolio templates: \code{raditian}, \code{kross}, and \code{portio}.
+\item Provides 2 starter portfolio templates: \code{raditian} and \code{kross}.
 }
 }

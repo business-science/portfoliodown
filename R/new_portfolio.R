@@ -3,7 +3,7 @@
 #' 
 #' @description 
 #' - Generates the default hugo template skeleton for a Portfolio-Based Data Scientist Website
-#' - Provides 3 portfolio templates: `raditian`, `kross`, and `portio`.  
+#' - Provides 2 starter portfolio templates: `raditian` and `kross`.  
 #' 
 #' 
 #' @inheritParams blogdown::new_site
@@ -13,7 +13,6 @@
 #' 
 #' - `raditian` (default): Custom version of the free hugo raditian theme
 #' - `kross`: Custom version of the free hugo kross theme
-#' - `portio`: Custom version of the free hugo portio theme
 #' 
 #' __A Hugo theme on Github__ 
 #' 
@@ -36,7 +35,7 @@ new_portfolio_site <- function(
   install_hugo = TRUE, 
   sample = FALSE,
   format = "yaml", 
-  theme = c("raditian", "kross", "portio"), 
+  theme = c("raditian", "kross"), 
   theme_example = TRUE, 
   netlify = TRUE,
   ...
@@ -46,10 +45,6 @@ new_portfolio_site <- function(
   
   if (theme == "raditian") {
     theme <- "business-science/raditian-free-hugo-theme-data-science"
-  }
-  
-  if (theme == "portio") {
-    theme <- "business-science/portio-hugo-data-science"
   }
   
   if (theme == "kross") {
