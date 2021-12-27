@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # portfoliodown <a href="https://business-science.github.io/portfoliodown/"><img src="man/figures/logo.png" align="right" height="139" /></a>
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/business-science/portfoliodown/workflows/R-CMD-check/badge.svg)](https://github.com/business-science/portfoliodown/actions)
 <!-- badges: end -->
 
 The goal of `portfoliodown` is to make it _painless for data scientists_ to create a polished professional website so they can host their project portfolios __(and get great job interviews)__.

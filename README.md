@@ -4,6 +4,8 @@
 # portfoliodown <a href="https://business-science.github.io/portfoliodown/"><img src="man/figures/logo.png" align="right" height="139" /></a>
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/business-science/portfoliodown/workflows/R-CMD-check/badge.svg)](https://github.com/business-science/portfoliodown/actions)
 <!-- badges: end -->
 
 The goal of `portfoliodown` is to make it *painless for data scientists*

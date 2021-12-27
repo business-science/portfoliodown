@@ -18,6 +18,7 @@ Imports:
     usethis
 Suggests: 
     rmarkdown,
-    knitr
+    knitr,
+    covr
 VignetteBuilder: knitr
 URL: https://business-science.github.io/portfoliodown/
