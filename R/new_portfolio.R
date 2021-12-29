@@ -24,7 +24,7 @@
 #' 
 #' If `theme = NA`, no themes will be installed, and you have to manually install a theme.
 #'   
-#'       
+#' 
 #' @param ... Additional arguments can be passed to [blogdown::new_site()].
 #' 
 #' 
@@ -62,5 +62,16 @@ new_portfolio_site <- function(
     netlify = netlify,
     ...
   )
+  
+  # blogdown::new_site() doesn't copy .forestry directory 
+  # Will copy the .forestry directory if it exists
+  theme_dir <- fs::dir_ls("themes") # returns themes/kross-hugo-data-science
+  
+  forestry_dir <-fs::path_join(c(theme_dir, "/exampleSite/.forestry/"))
+  
+  if (fs::dir_exists(forestry_dir)) {
+    fs::dir_copy(forestry_dir, ".")
+  }
+  
   
 }
