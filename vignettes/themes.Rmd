@@ -48,7 +48,7 @@ The `theme = "raditian"` (default) theme is an excellent choice if you are seeki
 
 __Demo:__ [Kross Theme](https://mattdancho-kross.netlify.app/)
 
-__About__:
+__Features__:
 
 The `theme = "kross"` theme is an excellent choice if you are seeking a customizable portfolio. 
 
@@ -58,3 +58,6 @@ The `theme = "kross"` theme is an excellent choice if you are seeking a customiz
 
 
 ![Example Portfolio - Kross Theme](https://github.com/business-science/kross-hugo-data-science/blob/master/images/example_portfolio_kross.gif?raw=true)
+
+
+
