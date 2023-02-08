@@ -25,9 +25,9 @@ Theme](https://raw.githubusercontent.com/business-science/raditian-free-hugo-the
 
 ## Portfoliodown Theme Demos:
 
--   [Raditian Theme](https://mattdancho.netlify.app/) (Default)
+- [Raditian Theme](https://mattdancho.netlify.app/) (Default)
 
--   [Kross Theme](https://mattdancho-kross.netlify.app/)
+- [Kross Theme](https://mattdancho-kross.netlify.app/)
 
 ## Installation
 
@@ -41,24 +41,24 @@ devtools::install_github("business-science/portfoliodown")
 
 ## Getting Started
 
--   The portfolio website is automatically generated with
-    `portfoliodown::new_portfolio_site()`, and can then be customized as
-    a `blogdown` website.
+- The portfolio website is automatically generated with
+  `portfoliodown::new_portfolio_site()`, and can then be customized as a
+  `blogdown` website.
 
--   To learn more, visit [Getting Started with
-    Portfoliodown](https://business-science.github.io/portfoliodown/articles/getting-started-portfoliodown.html)
+- To learn more, visit [Getting Started with
+  Portfoliodown](https://business-science.github.io/portfoliodown/articles/getting-started-portfoliodown.html)
 
 ## Acknowledgements
 
 The `portfoliodown` package would not be possible without the awesome
 work of:
 
--   The [Blogdown Team](https://github.com/rstudio/blogdown) and its
-    team at RStudio
+- The [Blogdown Team](https://github.com/rstudio/blogdown) and its team
+  at RStudio
 
--   The
-    [raditian-free-hugo-theme](https://github.com/radity/raditian-free-hugo-theme).
-    This is one of the best hugo portfolio templates around.
+- The
+  [raditian-free-hugo-theme](https://github.com/radity/raditian-free-hugo-theme).
+  This is one of the best hugo portfolio templates around.
 
--   The [kross-hugo-theme](https://github.com/themefisher/kross-hugo).
-    Another great portfolio template.
+- The [kross-hugo-theme](https://github.com/themefisher/kross-hugo).
+  Another great portfolio template.
