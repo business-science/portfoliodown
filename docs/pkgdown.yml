@@ -4,8 +4,8 @@ pkgdown_sha: ~
 articles:
   getting-started-portfoliodown: getting-started-portfoliodown.html
   themes: themes.html
-last_built: 2023-11-03T14:14Z
+last_built: 2023-11-03T14:22Z
 urls:
-  reference: https://business-science.github.io/portfoliodown/reference
-  article: https://business-science.github.io/portfoliodown/articles
+  reference: https://business-science.github.io/timetk/reference
+  article: https://business-science.github.io/timetk/articles
 
