@@ -18,8 +18,13 @@ portfolios **(and get great job interviews)**.
 <https://mattdancho.netlify.app/>. It took 15-minutes to make this with
 `portfoliodown`.
 
-![Example Portfolio - Raditian
-Theme](https://raw.githubusercontent.com/business-science/raditian-free-hugo-theme-data-science/master/images/example_portfolio.gif)
+<figure>
+<img
+src="https://raw.githubusercontent.com/business-science/raditian-free-hugo-theme-data-science/master/images/example_portfolio.gif"
+alt="Example Portfolio - Raditian Theme" />
+<figcaption aria-hidden="true">Example Portfolio - Raditian
+Theme</figcaption>
+</figure>
 
 <hr>
 
@@ -62,3 +67,23 @@ work of:
 
 - The [kross-hugo-theme](https://github.com/themefisher/kross-hugo).
   Another great portfolio template.
+
+# Do you need help becoming a Data Scientist with R right now?
+
+I put together a [free R
+masterclass](https://learn.business-science.io/free-rtrack-masterclass?el=documentation)
+where I share the 10 skills that helped me become a better data
+scientist.
+
+<figure>
+<img src="man/figures/rtrack_masterclass.jpg"
+alt="R-Track Masterclass" />
+<figcaption aria-hidden="true">R-Track Masterclass</figcaption>
+</figure>
+
+<a href="https://learn.business-science.io/free-rtrack-masterclass?el=documentation">
+<p style="text-align:center; font-size:20px;">
+Watch the free R masterclass
+</p>
+
+</a>

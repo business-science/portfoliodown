@@ -64,3 +64,10 @@ The `portfoliodown` package would not be possible without the awesome work of:
 
 - The [kross-hugo-theme](https://github.com/themefisher/kross-hugo). Another great portfolio template. 
 
+# Do you need help becoming a Data Scientist with R right now?
+
+I put together a [free R masterclass](https://learn.business-science.io/free-rtrack-masterclass?el=documentation) where I share the 10 skills that helped me become a better data scientist. 
+
+![R-Track Masterclass](man/figures/rtrack_masterclass.jpg)
+
+<a href="https://learn.business-science.io/free-rtrack-masterclass?el=documentation"><p style="text-align:center; font-size:20px;">Watch the free R masterclass</p></a>
